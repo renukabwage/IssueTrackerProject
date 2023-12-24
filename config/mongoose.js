@@ -2,7 +2,8 @@
 const mongoose=require('mongoose');
 
 // connect to the database
-mongoose.connect('mongodb://localhost/issueTracker');
+//mongoose.connect('mongodb://localhost/issueTracker');
+mongoose.connect('mongodb+srv://renubawage96:sGEqQsQ85ROjR8BU@cluster0.vj0vtrz.mongodb.net/?retryWrites=true&w=majority')
 
 // acquire the connection to check if it is successfully
 const db=mongoose.connection;
